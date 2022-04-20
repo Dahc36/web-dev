@@ -1,0 +1,26 @@
+body {
+  padding: 0 2rem;
+}
+
+p {
+  color: red
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  padding: 0;
+}
+
+.nav li {
+  margin-bottom: .5rem;
+}
+
+.nav .active {
+  color: unset;
+  text-decoration: none;
+  font-weight: bold;
+}
