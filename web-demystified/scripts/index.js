@@ -27,7 +27,7 @@ function renderNavBar() {
   navRoot.appendChild(navList);
 
   const logo = document.createElement('img');
-  logo.setAttribute('src', 'logo.svg');
+  logo.setAttribute('src', 'images/logo.svg');
   logo.setAttribute('width', '25%');
   logo.setAttribute('alt', 'Logo');
   navRoot.appendChild(logo);
